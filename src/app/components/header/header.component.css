@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-top: 5px solid #f06023;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .search-box input {
+    width: 200px;
+    padding: 5px;
+    border: none;
+  }
+  
+  .search-box button {
+    background-color: #f06023;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .account {
+    background-color: #fff;
+    text-align: right;
+  }
+  
+  nav {
+    background-color: #333;
+  }
+  
+  .menu {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  .menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .menu a:hover {
+    text-decoration: underline;
+  }
+  

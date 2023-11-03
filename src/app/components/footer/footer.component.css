@@ -1,0 +1,47 @@
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contact-info,
+  .sitemap,
+  .policy {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .contact-info p,
+  .sitemap ul,
+  .policy ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sitemap ul,
+  .policy ul {
+    margin: 0;
+  }
+  
+  .contact-info h4,
+  .sitemap h4,
+  .policy h4 {
+    font-size: 18px;
+  }
+  
+  .contact-info a,
+  .sitemap a,
+  .policy a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .contact-info a:hover,
+  .sitemap a:hover,
+  .policy a:hover {
+    text-decoration: underline;
+  }
+  

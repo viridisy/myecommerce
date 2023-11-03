@@ -1,0 +1,37 @@
+.product-cards-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next row */
+    justify-content: space-between; /* Adjust as needed for horizontal alignment */
+    align-items: flex-start; /* Align cards to the top of each row */
+    margin: 20px 0; /* Add margin for spacing above and below the cards */
+    width:950%;
+
+  }
+  
+
+.product-cards {
+    display: flex;          /* Use flexbox */
+    flex-direction: row;    /* Display items in a row */
+    justify-content: flex-start; /* Add space between items */
+    align-items: center;    /* Align items vertically in the center */
+    width:90%;
+  }
+
+  /* Add margin to create spacing between product cards */
+app-product-card {
+    width: 250px; /* Set the width to make the cards wider */
+    height: 450px; /* Set the height to make the cards taller */
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  
+  /* Remove margin from the last product card to prevent extra spacing */
+app-product-card:last-child {
+    margin-right: 0;
+}
+
+/* Define a class to apply the rotation effect */
+.rotate-effect {
+    transform: rotate(10deg); /* Apply a small initial rotation */
+  }
+
+  

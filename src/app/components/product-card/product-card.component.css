@@ -1,0 +1,24 @@
+.product-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 200px; /* Set a fixed width */
+    height: 400px; /* Set a fixed height */
+    margin: 10px; /* Add margin for spacing between cards */
+  }
+  
+.card-image{
+    height: 60%;
+}
+
+.product-image {
+    max-width: 100%; /* Set the image container's width to 100% of the card's width */
+    max-height: 100%; /* Set the image container's height to a percentage of the card's height */
+}
+
+.card-title {
+    height: 2.4em; /* Set the maximum height for two lines (adjust as needed) */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
